@@ -1,24 +1,24 @@
 <!-- ============ HEADER ============ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0A3D62,100:00E5FF&height=220&section=header&text=Abhishek%20Kumar&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=From%20syscalls%20to%20screens&descAlignY=58&descSize=18" width="100%" alt="header" />
+<img src="./banner.svg" alt="Abhishek Kumar" width="100%" />" width="100%" alt="Abhishek Kumar" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&height=45&lines=Concurrent+systems+in+C+%F0%9F%A7%B5;Full-stack+MERN+developer+%F0%9F%8C%90;857%2B+DSA+problems+solved+%E2%9A%94%EF%B8%8F;LeetCode+Knight+%E2%80%A2+1860+rating+%F0%9F%8F%86;Open+to+remote+work+worldwide+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F0A868&center=true&vCenter=true&width=700&height=45&lines=Concurrent+systems+in+C+%F0%9F%A7%B5;Full-stack+MERN+developer+%F0%9F%8C%90;857%2B+DSA+problems+solved+%E2%9A%94%EF%B8%8F;LeetCode+Knight+%E2%80%A2+1860+rating+%F0%9F%8F%86;Open+to+remote+work+worldwide+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=abhiishhekk&label=PROFILE%20VIEWS&color=00E5FF&style=for-the-badge&labelColor=0D1117" alt="Profile views" />
-<img src="https://img.shields.io/badge/NIT%20Allahabad-CSE%20'27-0A3D62?style=for-the-badge&labelColor=0D1117" alt="NIT Allahabad" />
-<img src="https://img.shields.io/badge/Open%20to-Remote%20Work-00E5FF?style=for-the-badge&labelColor=0D1117" alt="Open to remote" />
+<img src="https://komarev.com/ghpvc/?username=abhiishhekk&label=PROFILE%20VIEWS&color=F0A868&style=for-the-badge&labelColor=1C1C1F" alt="Profile views" />
+<img src="https://img.shields.io/badge/NIT%20Allahabad-CSE%20'27-2A2A2E?style=for-the-badge&labelColor=1C1C1F" alt="NIT Allahabad" />
+<img src="https://img.shields.io/badge/Open%20to-Remote%20Work-F0A868?style=for-the-badge&labelColor=1C1C1F" alt="Open to remote" />
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/abhishek-kumar-init"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:abhishekkumar.init@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://abhiishhekk.github.io/Portfolio-Des/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=00E5FF" /></a>
-<a href="https://leetcode.com/u/abhiishhek_k/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+<a href="https://www.linkedin.com/in/abhishek-kumar-init"><img src="https://img.shields.io/badge/LinkedIn-1C1C1F?style=for-the-badge&logo=linkedin&logoColor=ECE8E1" /></a>
+<a href="mailto:abhishekkumar.init@gmail.com"><img src="https://img.shields.io/badge/Email-1C1C1F?style=for-the-badge&logo=gmail&logoColor=ECE8E1" /></a>
+<a href="https://abhiishhekk.github.io/Portfolio-Des/"><img src="https://img.shields.io/badge/Portfolio-1C1C1F?style=for-the-badge&logo=vercel&logoColor=ECE8E1" /></a>
+<a href="https://leetcode.com/u/abhiishhek_k/"><img src="https://img.shields.io/badge/LeetCode-1C1C1F?style=for-the-badge&logo=leetcode&logoColor=ECE8E1" /></a>
 
 </div>
 
@@ -27,34 +27,40 @@
 <!-- ============ WHOAMI ============ -->
 ## `$ whoami`
 
-```c
-#include <stdio.h>
-#include <pthread.h>
+```cpp
+#include <iostream>
+#include <mutex>
+#include <string>
+#include <vector>
 
-typedef struct {
-    const char *name;
-    const char *college;
-    const char *focus[3];
-    const char *stack[4];
-    int   dsa_solved;
-    int   leetcode_rating;
-    int   open_to_remote;
-} Engineer;
-
-Engineer abhishek = {
-    .name            = "Abhishek Kumar",
-    .college         = "NIT Allahabad (MNNIT), B.Tech CSE '27",
-    .focus           = { "Concurrent & multithreaded systems",
-                         "Full-stack web (MERN)",
-                         "Applied ML + RAG" },
-    .stack           = { "C / C++", "Linux", "React + Node", "TensorFlow" },
-    .dsa_solved      = 857,
-    .leetcode_rating = 1860,
-    .open_to_remote  = 1,   // flexible with time zones, async-friendly
+struct Engineer {
+    std::string name;
+    std::string college;
+    std::vector<std::string> focus;
+    std::vector<std::string> stack;
+    int  dsaSolved;
+    int  leetcodeRating;
+    bool openToRemote;
 };
 
-int main(void) {
-    pthread_mutex_lock(&coffee);   // avoid race conditions, always
+void build(const Engineer& e);
+
+int main() {
+    std::mutex coffee;
+
+    Engineer abhishek{
+        "Abhishek Kumar",
+        "NIT Allahabad (MNNIT), B.Tech CSE '27",
+        { "Concurrent & multithreaded systems",
+          "Full-stack web (MERN)",
+          "Applied ML + RAG" },
+        { "C / C++", "Linux", "React + Node", "TensorFlow" },
+        857,    // DSA problems solved
+        1860,   // LeetCode rating
+        true    // flexible with time zones, async-friendly
+    };
+
+    std::lock_guard<std::mutex> lock(coffee);  // no race conditions, ever
     build(abhishek);
     return 0;
 }
@@ -78,8 +84,8 @@ int main(void) {
 **ML / AI**
 
 <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C1C1F?style=for-the-badge&logo=langchain&logoColor=ECE8E1" />
+<img src="https://img.shields.io/badge/Gemini-1C1C1F?style=for-the-badge&logo=googlegemini&logoColor=ECE8E1" />
 
 **Tools & Cloud**
 
@@ -162,16 +168,16 @@ Or browse all repositories:
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=abhiishhekk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF&count_private=true&include_all_commits=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhiishhekk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&langs_count=8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=abhiishhekk&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0A868&icon_color=F0A868&text_color=C9C5BD&count_private=true&include_all_commits=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhiishhekk&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0A868&text_color=C9C5BD&langs_count=8" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=abhiishhekk&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" />
+<img src="https://streak-stats.demolab.com/?user=abhiishhekk&theme=dark&hide_border=true&background=0D1117&stroke=2A2A2E&currStreakNum=ECE8E1&sideNums=ECE8E1&sideLabels=8B8B8B&dates=8B8B8B&ring=F0A868&fire=F0A868&currStreakLabel=F0A868" />
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=abhiishhekk&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+<img src="https://github-profile-trophy.vercel.app/?username=abhiishhekk&theme=gruvbox&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
 
 </div>
 
@@ -207,7 +213,7 @@ Or browse all repositories:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhiishhekk&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&area_color=00E5FF&hide_border=true&custom_title=Contribution%20Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhiishhekk&bg_color=0D1117&color=F0A868&line=F0A868&point=FFFFFF&area=true&area_color=F0A868&hide_border=true&custom_title=Contribution%20Graph" width="100%" />
 
 <br/><br/>
 
@@ -226,8 +232,5 @@ Got a systems problem, a product idea, or a role that fits? Let's talk.
 
 **📧 [abhishekkumar.init@gmail.com](mailto:abhishekkumar.init@gmail.com)** · **💼 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-init)** · **🌐 [Portfolio](https://abhiishhekk.github.io/Portfolio-Des/)**
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:0A3D62,100:0D1117&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
