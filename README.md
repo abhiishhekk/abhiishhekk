@@ -1,7 +1,7 @@
 <!-- ============ HEADER ============ -->
 <div align="center">
 
-<img src="./banner.svg" alt="Abhishek Kumar" width="100%" />"
+<img src="./banner.svg" alt="Abhishek Kumar" width="100%" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F0A868&center=true&vCenter=true&width=700&height=45&lines=Concurrent+systems+in+C+%F0%9F%A7%B5;Full-stack+MERN+developer+%F0%9F%8C%90;857%2B+DSA+problems+solved+%E2%9A%94%EF%B8%8F;LeetCode+Knight+%E2%80%A2+1860+rating+%F0%9F%8F%86;Open+to+remote+work+worldwide+%F0%9F%9A%80" alt="Typing SVG" />
@@ -168,16 +168,12 @@ Or browse all repositories:
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=abhiishhekk&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0A868&icon_color=F0A868&text_color=C9C5BD&count_private=true&include_all_commits=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhiishhekk&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=F0A868&text_color=C9C5BD&langs_count=8" />
+<img src="https://img.shields.io/github/followers/abhiishhekk?label=FOLLOWERS&style=for-the-badge&labelColor=1C1C1F&color=F0A868" alt="Followers" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fabhiishhekk&query=%24.public_repos&label=PUBLIC%20REPOS&style=for-the-badge&labelColor=1C1C1F&color=F0A868" alt="Public repos" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=abhiishhekk&theme=dark&hide_border=true&background=0D1117&stroke=2A2A2E&currStreakNum=ECE8E1&sideNums=ECE8E1&sideLabels=8B8B8B&dates=8B8B8B&ring=F0A868&fire=F0A868&currStreakLabel=F0A868" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=abhiishhekk&theme=gruvbox&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+<img src="https://streak-stats.demolab.com/?user=abhiishhekk&theme=dark&hide_border=true&background=0D1117&stroke=2A2A2E&currStreakNum=ECE8E1&sideNums=ECE8E1&sideLabels=8B8B8B&dates=8B8B8B&ring=F0A868&fire=F0A868&currStreakLabel=F0A868" alt="GitHub streak" />
 
 </div>
 
@@ -212,10 +208,6 @@ Or browse all repositories:
 ## `> contribution_activity`
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhiishhekk&bg_color=0D1117&color=F0A868&line=F0A868&point=FFFFFF&area=true&area_color=F0A868&hide_border=true&custom_title=Contribution%20Graph" width="100%" />
-
-<br/><br/>
 
 <img src="https://raw.githubusercontent.com/abhiishhekk/abhiishhekk/output/github-snake-dark.svg" alt="Snake animation" width="100%" />
 
