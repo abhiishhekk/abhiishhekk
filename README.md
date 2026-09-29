@@ -1,7 +1,7 @@
 <!-- ============ HEADER ============ -->
 <div align="center">
 
-<img src="./banner.svg" alt="Abhishek Kumar" width="100%" />" width="100%" alt="Abhishek Kumar" />
+<img src="./banner.svg" alt="Abhishek Kumar" width="100%" />"
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F0A868&center=true&vCenter=true&width=700&height=45&lines=Concurrent+systems+in+C+%F0%9F%A7%B5;Full-stack+MERN+developer+%F0%9F%8C%90;857%2B+DSA+problems+solved+%E2%9A%94%EF%B8%8F;LeetCode+Knight+%E2%80%A2+1860+rating+%F0%9F%8F%86;Open+to+remote+work+worldwide+%F0%9F%9A%80" alt="Typing SVG" />
