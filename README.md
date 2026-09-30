@@ -4,14 +4,13 @@
 <img src="./banner.svg" alt="Abhishek Kumar" width="100%" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F0A868&center=true&vCenter=true&width=700&height=45&lines=Concurrent+systems+in+C+%F0%9F%A7%B5;Full-stack+MERN+developer+%F0%9F%8C%90;857%2B+DSA+problems+solved+%E2%9A%94%EF%B8%8F;LeetCode+Knight+%E2%80%A2+1860+rating+%F0%9F%8F%86;Open+to+remote+work+worldwide+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F0A868&center=true&vCenter=true&width=700&height=45&lines=Full-stack+MERN+developer;857%2B+DSA+problems+solved;LeetCode+Knight+%E2%80%A2+1860+rating;RAG+Powered+AI+Developer" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=abhiishhekk&label=PROFILE%20VIEWS&color=F0A868&style=for-the-badge&labelColor=1C1C1F" alt="Profile views" />
 <img src="https://img.shields.io/badge/NIT%20Allahabad-CSE%20'27-2A2A2E?style=for-the-badge&labelColor=1C1C1F" alt="NIT Allahabad" />
-<img src="https://img.shields.io/badge/Open%20to-Remote%20Work-F0A868?style=for-the-badge&labelColor=1C1C1F" alt="Open to remote" />
 
 <br/><br/>
 
@@ -55,9 +54,8 @@ int main() {
           "Full-stack web (MERN)",
           "Applied ML + RAG" },
         { "C / C++", "Linux", "React + Node", "TensorFlow" },
-        857,    // DSA problems solved
-        1860,   // LeetCode rating
-        true    // flexible with time zones, async-friendly
+        857+,    // DSA problems solved
+        Knight,   // LeetCode 
     };
 
     std::lock_guard<std::mutex> lock(coffee);  // no race conditions, ever
@@ -220,7 +218,6 @@ Or browse all repositories:
 
 <div align="center">
 
-Got a systems problem, a product idea, or a role that fits? Let's talk.
 
 **📧 [abhishekkumar.init@gmail.com](mailto:abhishekkumar.init@gmail.com)** · **💼 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-init)** · **🌐 [Portfolio](https://abhiishhekk.github.io/Portfolio-Des/)**
 
