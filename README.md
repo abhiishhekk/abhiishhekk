@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://hits.sh/github.com/abhiishhekk/abhiishhekk.svg?view=today-total&label=VIEWS%20(TODAY%20%2F%20TOTAL)&style=for-the-badge&color=F0A868&labelColor=1C1C1F&extraCount=1240" alt="Profile views" />
+<img src="https://hits.sh/github.com/abhiishhekk/abhiishhekk.svg?view=today-total&label=VIEWS%20(TODAY%20%2F%20TOTAL)&style=for-the-badge&color=F0A868&labelColor=1C1C1F" alt="Profile views" />
 <img src="https://img.shields.io/badge/NIT%20Allahabad-CSE%20'27-2A2A2E?style=for-the-badge&labelColor=1C1C1F" alt="NIT Allahabad" />
 
 <br/><br/>
